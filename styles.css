@@ -10,9 +10,6 @@ body {
 
 .button {
     color: black;
-    display: inline-block;
-    padding: 10px;
-    width: 100px;
     background-color: white;
 }
 
