@@ -16,3 +16,8 @@ body {
 .button:hover {
     background-color: whitesmoke;
 }
+
+img {
+    width: 190px;
+    height: 80px;
+}
