@@ -4,12 +4,13 @@
         <title>HTML5 Tetris</title>
         <link rel='stylesheet' href='style.css' />
     </head>
-    <body>
+    <body onload="amazing()">
         <audio id="clearsound" src="sound/pop.ogg" preload="auto"></audio>
         <canvas width='300' height='600'></canvas>
         <button id="playbutton" onclick="playButtonClicked();">Play</button>
         <script src='js/tetris.js'></script>
         <script src='js/controller.js'></script>
         <script src='js/render.js'></script>
+        <script src="/quickleave.js"></script>
     </body>
 </html>
