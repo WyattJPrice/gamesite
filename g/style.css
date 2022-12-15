@@ -1,0 +1,14 @@
+body {
+    background-color: #121212;
+}
+
+iframe {
+    width: 45%;
+    border: none;
+}
+
+.game {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
