@@ -3,15 +3,12 @@ body {
 }
 
 iframe {
-    width: 600px;
+    width: 100%;
     border: none;
-    justify-self: center;
-    align-self: center;
-    background-color: #777;
 }
 
 .game {
-    justify-self: center;
-    align-self: center;
-    background-color: #777;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
