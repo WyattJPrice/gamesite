@@ -1,4 +1,4 @@
-function shield(url) {
+function urlhide(url) {
     var win = window.open()
     var url = url
     var iframe = win.document.createElement('iframe')
@@ -11,5 +11,5 @@ function shield(url) {
   
   var element = document.getElementById("imageid");
   element.addEventListener("click",function(){
-  shield(https://paper-io.com/)
+  urlhide("https://paper-io.com/")
   })
