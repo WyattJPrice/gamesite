@@ -18,3 +18,8 @@ function urlhide(url) {
   element.addEventListener("click",function(){
   urlhide("https://www.google.com/logos/2019/july4th19/r6/july4th19.html?hl=en")
   })
+
+  var element = document.getElementById("imageid2");
+  element.addEventListener("click",function(){
+  urlhide("https://littlealchemy.com/")
+  })
