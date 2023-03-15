@@ -23,3 +23,8 @@ function urlhide(url) {
   element.addEventListener("click",function(){
   urlhide("https://littlealchemy.com/")
   })
+
+  var element = document.getElementById("private");
+  element.addEventListener("click",function(){
+  urlhide("https://paper-io.com/ps/?p-us1qjihoel")
+  })
