@@ -41,3 +41,8 @@ var element = document.getElementById("private");
 element.addEventListener("click", function () {
   urlhide("https://paper-io.com/ps/?p-us1qjihoel")
 })
+
+var element = document.getElementById("imageid15");
+element.addEventListener("click", function () {
+  urlhide("https://www.sporcle.com/")
+})
