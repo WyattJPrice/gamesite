@@ -17,6 +17,11 @@ function urlhide(url) {
   win.document.body.appendChild(iframe)
 }
 
+var element = document.getElementById("subway");
+element.addEventListener("click", function () {
+  urlhide("https://raw.githack.com/3kh0/3kh0-assets/main/subway-surfers/index.html")
+})
+
 var element = document.getElementById("imageid");
 element.addEventListener("click", function () {
   urlhide("https://paper-io.com/")
@@ -42,7 +47,3 @@ element.addEventListener("click", function () {
   urlhide("https://www.sporcle.com/")
 })
 
-var element = document.getElementById("imageid19");
-element.addEventListener("click", function () {
-  urlhide("https://raw.githack.com/3kh0/3kh0-assets/main/subway-surfers/index.html")
-})
