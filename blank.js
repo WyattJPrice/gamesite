@@ -27,6 +27,11 @@ element.addEventListener("click", function () {
   urlhide("https://paper-io.com/")
 })
 
+var element = document.getElementById("sporcle");
+element.addEventListener("click", function () {
+  urlhide("https://www.sporcle.com/")
+})
+
 var element = document.getElementById("imageid2");
 element.addEventListener("click", function () {
   urlhide("https://littlealchemy.com/")
@@ -42,8 +47,5 @@ element.addEventListener("click", function () {
   urlhide("https://paper-io.com/ps/?p-us1qjihoel")
 })
 
-var element = document.getElementById("imageid15");
-element.addEventListener("click", function () {
-  urlhide("https://www.sporcle.com/")
-})
+
 
