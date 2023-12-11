@@ -22,6 +22,11 @@ element.addEventListener("click", function () {
   urlhide("https://raw.githack.com/3kh0/3kh0-assets/main/subway-surfers/index.html")
 })
 
+var element = document.getElementById("1v1");
+element.addEventListener("click", function () {
+  urlhide("https://1v1.lol/")
+})
+
 var element = document.getElementById("snowball");
 element.addEventListener("click", function () {
   urlhide("https://snowball-io.io/")
