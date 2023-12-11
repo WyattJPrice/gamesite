@@ -27,11 +27,6 @@ element.addEventListener("click", function () {
   urlhide("https://1v1.lol/")
 })
 
-var element = document.getElementById("snowball");
-element.addEventListener("click", function () {
-  urlhide("https://snowball-io.io/")
-})
-
 var element = document.getElementById("imageid");
 element.addEventListener("click", function () {
   urlhide("https://paper-io.com/")
