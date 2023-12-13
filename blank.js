@@ -27,6 +27,11 @@ element.addEventListener("click", function () {
   urlhide("https://1v1.lol/")
 })
 
+var element = document.getElementById("private");
+element.addEventListener("click", function () {
+  urlhide("https://paper-io.com/ps/?p-us1qjihoel")
+})
+
 var element = document.getElementById("imageid");
 element.addEventListener("click", function () {
   urlhide("https://paper-io.com/")
@@ -47,10 +52,7 @@ element.addEventListener("click", function () {
   urlhide("https://html5.gamemonetize.co/ugi7ftbv2kgodcq7vful9u9v34wein5z/")
 })
 
-var element = document.getElementById("private");
-element.addEventListener("click", function () {
-  urlhide("https://paper-io.com/ps/?p-us1qjihoel")
-})
+
 
 
 
