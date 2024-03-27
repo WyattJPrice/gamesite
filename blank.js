@@ -17,11 +17,6 @@ function urlhide(url) {
   win.document.body.appendChild(iframe)
 }
 
-var element = document.getElementById("subway");
-element.addEventListener("click", function () {
-  urlhide("https://raw.githack.com/3kh0/3kh0-assets/main/subway-surfers/index.html")
-})
-
 var element = document.getElementById("1v1");
 element.addEventListener("click", function () {
   urlhide("https://1v1.lol/")
@@ -51,8 +46,3 @@ var element = document.getElementById("imageid3");
 element.addEventListener("click", function () {
   urlhide("https://html5.gamemonetize.co/ugi7ftbv2kgodcq7vful9u9v34wein5z/")
 })
-
-
-
-
-
