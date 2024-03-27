@@ -33,3 +33,8 @@ img {
     display:block;
     margin: auto;
 }
+
+.toppy {
+    display: block;
+    padding-bottom: 12px;
+}
