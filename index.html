@@ -87,7 +87,7 @@
             <br>
             <h3>1v1.lol</h3>
             <a href="https://thegamesite.netlify.app/">
-                <img src="/img/1v1.jpeg" id="1v1" alt="1v1.lol">
+                <img src="/img/1v1.jpeg" onclick="urlhide("https://1v1.lol/")" alt="1v1.lol">
             </a>
         </div>
     </div>
@@ -110,11 +110,6 @@
             iframe.src = url
             win.document.body.appendChild(iframe)
         }
-
-        var element = document.getElementById("subway");
-        element.addEventListener("click", function () {
-            urlhide("https://raw.githack.com/3kh0/3kh0-assets/main/subway-surfers/index.html")
-        })
 
         var element = document.getElementById("1v1");
         element.addEventListener("click", function () {
@@ -145,11 +140,6 @@
         element.addEventListener("click", function () {
             urlhide("https://html5.gamemonetize.co/ugi7ftbv2kgodcq7vful9u9v34wein5z/")
         })
-
-
-
-
-
 
     </script>
 </body>
