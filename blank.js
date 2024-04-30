@@ -17,24 +17,14 @@ function urlhide(url) {
   win.document.body.appendChild(iframe)
 }
 
-var element = document.getElementById("1v1");
-element.addEventListener("click", function () {
-  urlhide("https://1v1.lol/")
-})
-
-var element = document.getElementById("private");
-element.addEventListener("click", function () {
-  urlhide("https://paper-io.com/ps/?p-us1qjihoel")
-})
-
 var element = document.getElementById("imageid");
 element.addEventListener("click", function () {
   urlhide("https://paper-io.com/")
 })
 
-var element = document.getElementById("sporcle");
+var element = document.getElementById("imageid1");
 element.addEventListener("click", function () {
-  urlhide("https://www.sporcle.com/")
+  urlhide("https://www.google.com/logos/2019/july4th19/r6/july4th19.html?hl=en")
 })
 
 var element = document.getElementById("imageid2");
@@ -45,4 +35,9 @@ element.addEventListener("click", function () {
 var element = document.getElementById("imageid3");
 element.addEventListener("click", function () {
   urlhide("https://html5.gamemonetize.co/ugi7ftbv2kgodcq7vful9u9v34wein5z/")
+})
+
+var element = document.getElementById("private");
+element.addEventListener("click", function () {
+  urlhide("https://paper-io.com/ps/?p-us1qjihoel")
 })
