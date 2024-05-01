@@ -38,7 +38,7 @@ img {
 
 img:hover {
     transform: scale(1.1); 
-    border: 4px red;
+    border: 5px solid red;
 }
 
 .toppy {
