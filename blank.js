@@ -19,7 +19,7 @@ function urlhide(url) {
 
 var element = document.getElementById("imageid");
 element.addEventListener("click", function () {
-  urlhide("https://paper-io.com/")
+  urlhide("https://paperio.site/")
 })
 
 var element = document.getElementById("imageid1");
@@ -30,11 +30,6 @@ element.addEventListener("click", function () {
 var element = document.getElementById("imageid2");
 element.addEventListener("click", function () {
   urlhide("https://littlealchemy.com/")
-})
-
-var element = document.getElementById("imageid3");
-element.addEventListener("click", function () {
-  urlhide("https://html5.gamemonetize.co/ugi7ftbv2kgodcq7vful9u9v34wein5z/")
 })
 
 var element = document.getElementById("private");
